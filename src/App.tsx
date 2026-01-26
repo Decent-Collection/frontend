@@ -5,7 +5,8 @@ function App() {
 
   return (
     <>
-     <div>Welcom To Decent Collections</div>
+     <div>Welcome To Decent Collections</div>
+     <div>In Progress</div>
     </>
   )
 }
