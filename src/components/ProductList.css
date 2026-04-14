@@ -1,0 +1,19 @@
+.list { padding: 3rem 2rem; max-width: 1280px; margin: 0 auto; width: 100%; box-sizing: border-box; }
+.list__header {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem; margin-bottom: 1.8rem;
+}
+.list__title { color: #111; font-size: 1.8rem; margin: 0; }
+.list__filters { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.list__filter {
+  background: #ffffff; color: #4b5563; border: 1px solid #d1d5db;
+  padding: 0.45rem 1rem; border-radius: 999px; cursor: pointer; font-size: 0.9rem;
+}
+.list__filter:hover { border-color: #f5c518; color: #111; }
+.list__filter.is-active { background: #f5c518; color: #111; border-color: #f5c518; font-weight: 600; }
+.list__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.5rem;
+}
+.list__empty { color: #6b7280; text-align: center; padding: 2rem; }
